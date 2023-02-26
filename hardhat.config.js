@@ -10,6 +10,7 @@ module.exports = {
     hardhat : {
 
     },
+    /*
     goerli : {
       url: `${process.env.GOERLI_URL}`,
       accounts: [process.env.PRIVATE_KEY],
@@ -21,7 +22,7 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY],
       blockGasLimit: 20000000,
       gasPrice: 55000000000 // 35 Gwei
-    },
+    },*/
   },
   mocha: {
     timeout: 1000000000000000000,
